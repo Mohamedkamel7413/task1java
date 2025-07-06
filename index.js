@@ -1,0 +1,11 @@
+let money = prompt("Enter your money");
+let numberOfBoys = prompt("Enter number of boys");
+let numberOfGirls = prompt("Enter number of girls");
+let numberOfWife = prompt("Enter number of wifes");
+let moneyForWife = money * 0.125 ;
+let moneyAfterWifes =money - (moneyForWife * numberOfWife);
+let moneyForEveryGirl = (moneyAfterWifes) / ( numberOfBoys * 2 + numberOfGirls );
+let moneyForEveryBoy = moneyForEveryGirl*2 ;
+console.log(moneyForEveryGirl);
+console.log(moneyForEveryBoy);
+console.log ( "money for every wife ="+ moneyForWife);
