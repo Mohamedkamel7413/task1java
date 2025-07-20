@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AC Remote Control</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="remote">
+      <div class="display" id="display">OFF</div>
+      <button class="btn power" onclick="togglePower()">Power</button>
+      <div>
+        <button class="btn" onclick="IncTemp()">Temp +</button>
+        <button class="btn" onclick="DecTemp()">Temp -</button>
+      </div>
+      <div>
+        <button class="btn" onclick="changeFan()">Fan Speed</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
